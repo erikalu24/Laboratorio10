@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+.barra1 {
+    position: absolute;
+    width: 126%;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #FF0000;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+.contenido{
+    width: 103%;
+    height: 100%;
+}
+
+.login {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 24%;
+    position: relative;
+    left: 27%;
+    max-width: 300px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    gap: 15px;
+    padding: 36px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    height:50px;
+    text-indent: 15px;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    background-position-y: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    min-width: 120px;
+}
+
+.btnlogin {
+    background: #676767;
+    border: 1px solid #808080;
+    box-shadow: 3px 4px 12px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    max-width: 82px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+
+
